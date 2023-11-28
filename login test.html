@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en_US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="icon" href="Login-icon.png" />
+    <style>
+      .login {
+        background-color: rgb(109, 163, 109);
+        width: 380px;
+        height: 430px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        position: relative;
+        top: 5%;
+      }
+      .sign {
+        background-color: rgb(247, 248, 247);
+        text-decoration: none;
+      }
+      .start {
+        display: flex;
+        gap: 2%;
+        width: 20%;
+        float: right;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        font-size: 20px;
+        color: #29627e;
+        position: relative;
+        right: 13%;
+        top: 5%;
+      }
+      .giv {
+        display: flex;
+        gap: 1%;
+        width: 20%;
+        padding-left: 0.5rem;
+        margin-left: 0rem;
+        float: left;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        font-size: 20px;
+        color: #29627e;
+      }
+      .ad {
+        text-decoration: none;
+      }
+      .body{
+        position: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="start">
+      <br />
+      <img src="C:\Users\hakus\OneDrive\Advanced level books\login.jpg" width="410px" height="500px" />
+      <br />
+    </div>
+    <div class="giv">
+      <img src="C:\Users\hakus\OneDrive\Desktop\HTML\WEB DESIGN ASSIGNMENT\Royalty.jpg" width="400px" height="500px" />
+    </div>
+    <p style="font-weight: bolder; text-align: center; font-size: 25px;">Welcome!</p>
+    <div class="login" align="middle">
+      <form id="loginForm">
+        <img
+          class="id"
+          src="C:\Users\hakus\OneDrive\Pictures\Project photos & documents\No fail student logo.jpg"
+          width="100px"
+          height="80px"
+        />
+        <h1>Login</h1>
+        <label for="username">Username/email address</label><br />
+        <input type="text" id="username" name="username" placeholder="Username/email address" /><br />
+        <br />
+        <label for="password">Password</label><br />
+        <input type="password" id="password" name="password" placeholder="Password" /><br />
+        <br />
+        <button type="submit">Login</button>
+        <br />
+        <p><button>Forgot password</button></p>
+        <br />
+        <p>Don't have an account yet? <button><a class="sign" href="register.html">Sign up/Register</a></button></p>
+        <p>Don't want to continue? <button><a class="sign" href="home.html">Back to home page</a></button></p>
+      </form>
+    </div>
+
+    <script>
+      // Function to handle form submission
+      document.getElementById("loginForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission behavior
+
+        // Get form data
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        // Perform authentication
+        // Replace the condition below with your actual authentication logic
+        if (username === "admin" && password === "admin123") {
+          window.location.href = "admin page.html";
+        } else if (username === "Teacher" && password === "Teacher123") {
+          window.location.href = "Teacher page.html";
+        } else if (username === "Student" && password === "Student123") { 
+            window.location.href = "Student page.html";
+        }
+        else {
+          alert("Invalid credentials. Please try again.");
+        }
+      });
+    </script>
+    <script>
+var passwordInput = document.getElementById("password-input"); // Assuming you have an input element with the id "password-input"
+var toggleButton = document.getElementById("toggle-button"); // Assuming you have a button element with the id "toggle-button"
+
+// Add event listener to the toggle button
+toggleButton.addEventListener("click", function () {
+  if (passwordInput.type === "password") {
+    // Show the password
+    passwordInput.type = "text";
+    toggleButton.textContent = "Hide";
+  } else {
+    // Hide the password
+    passwordInput.type = "password";
+    toggleButton.textContent = "Show";
+  }
+});
+    </script>
+  </body>
+</html>

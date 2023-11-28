@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Test</title>
+    <style>
+        aside{
+            width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+        }
+        .nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  background-color: #eeeeee;
+  color: #000000;
+}
+
+.nav a.active {
+  background-color: #0e002b;
+  color: #ffffff;
+}
+
+.nav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #1c87c9;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .login-container button:hover {
+  background-color: #0e002b;
+}
+.division1{
+               display: inline-block;
+               border: 0px solid rgb(64, 255, 0);
+               padding: 1rem 1rem;
+               float: right;
+               color: #eeeeee;
+               background-color: #1c87c9;
+}
+.division{
+    display: inline-block;
+               border: 0px solid rgb(43, 255, 0);
+               padding: 1rem 1rem;
+               float: left;  
+               color: #eeeeee;
+               background-color: #1c87c9;
+               width: 300px;
+}
+.division2{
+  display: inline-block;
+  border: 0px solid rgb(26, 255, 0);
+  padding: 1rem 1rem;
+  float: middle;
+  position: relative;left: 3%;
+  color: #eeeeee;
+  background-color: #1c87c9;
+  width: 300px;
+}
+.hit{
+  display: flex;
+  gap: 2%;
+  background-color: #c8c3c3;
+}
+    </style></head>
+    <body>
+
+
+
+        <div class="nav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Tutorials</a>
+            <div class="login-container">
+              <form action="/form/submit" method="POST">
+                <input type="text" placeholder="E-mail" name="e-mail">
+                <input type="text" placeholder="Password" name="psw">
+                <button type="submit">Login</button>
+              </form>
+            </div>
+          </div>
+        <nav class="crumbs">
+            <ol>
+              <li class="crumb"><a href="#">Bikes</a></li>
+              <li class="crumb"><a href="#">BMX</a></li>
+              <li class="crumb">Jump Bike 3000</li>
+            </ol>
+          </nav>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <h2>Navigation</h2>
+            <p>
+              You are on my home page. To the north lies <a href="/blog">my blog</a>, from
+              whence the sounds of battle can be heard. To the east you can see a large
+              mountain, upon which many <a href="/school">school papers</a> are littered.
+              Far up this mountain you can spy a little figure who appears to be me,
+              desperately scribbling a <a href="/school/thesis">thesis</a>.
+            </p>
+            <aside>
+                <p>This is the platform to guide you.</p>
+            </aside>
+            <p>
+              To the west are several exits. One fun-looking exit is labeled
+              <a href="https://games.example.com/">"games"</a>. Another more
+              boring-looking exit is labeled <a href="https://isp.example.net/">ISP™</a>.
+            </p>
+            <p>
+              To the south lies a dark and dank <a href="/about">contacts page</a>.
+              Cobwebs cover its disused entrance, and at one point you see a rat run
+              quickly out of the page.
+            </p>
+          </nav>
+          
+          <h1>Jump Bike 3000</h1>
+          <p>
+            This BMX bike is a solid step into the pro world. It looks as legit as it rides and is built to polish your skills.
+          </p>
+          <pre>                               
+            this line is new
+            when give its was new
+            please care about yourself
+          </pre>
+          
+          <div class="hit">
+         <div class="division1">div tag 1 <p>fhdcghfcbngsgjdfghsjgssgsxv xbnqwgfdsgvghfghdghfhgdfsggdn</p>
+        
+          <p>You are on my home page. To the north lies my blog,<br>
+           from whence the sounds of battle can be heard. <br>
+          To the east you can see a large mountain, upon <br>
+           which many school papers are littered. <br>
+           Far up this mountain you can spy a little <br>
+            figure who appears to be me, <br>
+           desperately scribbling a thesis. <br>
+          </p>
+        </div>
+         <div class="division">div tag 2 <p>vcfwghjkgf6tgdbsvsffdrtghdsbgffggfgfghge</p>
+          <p>which many school papers are littered. <br>
+            Far up this mountain you <br>can spy a little <br>
+             figure who appears to be me, <br>
+            desperately scribbling a thesis. <br></p>
+        </div>
+         <div class="division2">
+        <img src="C:\Users\hakus\OneDrive\Pictures\attention.jpg" width="320px" height="180px" alt="Pay attention">
+        <p>Pay attention please!</p>
+        <p><em>Far up this mountain you can spy <br>a little figure who appears to be me,
+          desperately scribbling a <a href="/school/thesis">thesis</a>.</em></p>
+        </div>
+      </div>
+    </body>
+</html>
