@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  padding: 20px;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.container {
+  background-color: #171614;
+  border: 2px solid #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.partner-section {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.partner-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.partner {
+  margin-bottom: 30px;
+}
+
+.mast {
+  background-color: #d3d2d2;
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .row > div {
+    margin-bottom: 20px;
+  }
+
+  .mast {
+    margin-top: 20px;
+  }
+}
