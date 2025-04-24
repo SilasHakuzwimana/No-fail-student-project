@@ -1,4 +1,4 @@
-# E-Learning Platform
+# E-Learning Platform (No-fail-student-project)
 
 ## Overview
 
@@ -59,7 +59,7 @@ The **E-Learning Platform** is an interactive web-based application designed to 
    - For backend: Ensure PHP and MySQL are correctly set up.
 
 4. **Access the platform**:
-   - Open the index page in your browser (`localhost/e-learning-platform` if using local server).
+   - Open the index page in your browser (`localhost/No-fail-student-project` if using local server).
 
 ---
 
@@ -67,7 +67,7 @@ The **E-Learning Platform** is an interactive web-based application designed to 
 
 We welcome contributions to improve this project! Here are some ways you can contribute:
 
-1. **Bug Reporting**: If you find a bug or issue, please create a new issue in the [Issues](https://github.com/yourusername/e-learning-platform/issues) section.
+1. **Bug Reporting**: If you find a bug or issue, please create a new issue in the [Issues](https://github.com/SilasHakuzwimana/No-fail-student-project/issues) section.
 2. **Feature Requests**: If you have suggestions for new features or enhancements, feel free to propose them.
 3. **Submit a Pull Request**: Fork the repository, make your changes, and submit a pull request. Be sure to include tests and documentation for any new features you add.
 
@@ -89,7 +89,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries or suggestions, please contact us at [youremail@example.com].
+For any inquiries or suggestions, please contact us at [hakuzwisilas@gmail.com].
 
 ---
 
