@@ -1,0 +1,17 @@
+.service-card {
+  background-color: #85929a;
+  color: #eeeeee;
+  height: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.service-card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.service-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

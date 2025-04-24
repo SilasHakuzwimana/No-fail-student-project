@@ -11,39 +11,67 @@
     />
     <link rel="stylesheet" href="../frontend/css/partners.css" />
     <link rel="stylesheet" href="../frontend/css/styles.css" />
+    <link rel="stylesheet" href="../frontend/css/about-us.css" />
   </head>
 
   <body>
-    <header
-      class="title-bar py-3 px-4 d-flex align-items-center justify-content-between"
-    >
-      <div class="d-flex align-items-center gap-3">
+    <!-- Modern Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg px-4 py-3">
+      <a class="navbar-brand d-flex align-items-center" href="#">
         <img
           src="../images/no-fail-student-project-logo.jpg"
           alt="NFSP Logo"
-          width="50"
-          height="50"
+          width="40"
+          height="40"
+          class="me-2"
         />
-        <h5 class="mb-0 text-white">No-Fail Student Project</h5>
-      </div>
-      <nav class="d-flex gap-3 align-items-center">
-        <a href="../frontend/home.html" class="nav-link">Home</a>
-        <a href="../frontend/about-us.html" class="nav-link">About us</a>
-        <a href="../frontend/partners.html" class="nav-link">Our Partners</a>
-        <a href="../frontend/Services.html" class="nav-link">Our Services</a>
-        <a href="../frontend/contact-us.html" class="nav-link">Contact Us</a>
-        <a href="../frontend/login.html">
-          <button class="btn login-btn">Login</button>
-        </a>
-      </nav>
-    </header>
+        No-Fail Student Project
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="container">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-2">
+          <li class="nav-item">
+            <a class="nav-link" href="../frontend/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../frontend/about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../frontend/partners.html">Our Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../frontend/Services.html">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../frontend/contact-us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="../frontend/login.html">
+              <button class="btn btn-outline-light ms-2">Login</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
       <h1 class="text-center mb-4">Our Partners</h1>
 
-      <div class="partner">
+      <div class="partner mb-5">
         <h4>Rwanda Education Board</h4>
-        <img src="../images/reb.png" alt="REB logo" class="partner-logo" />
+        <img src="../images/reb.png" alt="REB logo" class="partner-logo mb-3" />
         <p>
           Rwanda Basic Education Board (REB) is a Government institution
           established in 2020... <br />
@@ -57,21 +85,21 @@
       </div>
 
       <div class="row partner-section">
-        <div class="col-md-6 partner">
+        <div class="col-md-6 partner mb-4">
           <h4>National Examination and School Inspection Authority (NESA)</h4>
-          <img src="../images/nesa.png" alt="NESA logo" class="partner-logo" />
+          <img src="../images/nesa.png" alt="NESA logo" class="partner-logo mb-3" />
           <p>
             NESA was established in 2020 to monitor school inspections and
             administer assessments...
           </p>
         </div>
 
-        <div class="col-md-6 mast">
+        <div class="col-md-6 partner mb-4">
           <h4>Mastercard Foundation</h4>
           <img
             src="../images/mastercard.jpg"
             alt="Mastercard logo"
-            class="partner-logo"
+            class="partner-logo mb-3"
           />
           <p>
             The Mastercard Foundation, based in Toronto, promotes youth learning
